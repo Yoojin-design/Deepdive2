@@ -1,0 +1,126 @@
+.h2 {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.button {
+  display: inline-flex;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: var(--Gray-Gray-50, #1d1d1d);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Figma Styles of your File */
+:root {
+  /* 텍스트 */
+  --txt50: #1d1d1d;
+
+  /* 버튼 */
+  --btnselected: #1d1d1d;
+
+  /* 서식 */
+
+  /* 링크 */
+
+  /* --변수명:값 */
+  /* --txt55:#555555; */
+
+  /* Colors */
+
+  --primary-pink-100: #ff455c;
+  --primary-pink-50: #ff697d;
+  --primary-pink-10: #ffdade;
+  --secondary-blue-100: #6a82ec;
+  --secondary-blue-50: #e1e6fb;
+  --gray-white: #ffffff;
+  --gray-gray-10: #f0f0f0;
+  --gray-gray-20: #d8d8d8;
+  --gray-gray-30: #9e9e9e;
+  --gray-gray-40: #555555;
+  --gray-gray-50: #1d1d1d;
+  --gray-black: #000000;
+
+  /* Fonts */
+  --display-large-font-family: Pretendard-Bold, sans-serif;
+  --display-large-font-size: 88px;
+  --display-large-line-height: 150px;
+  --display-large-font-weight: 700;
+  --display-large-font-style: normal;
+  --display-medium-font-family: Pretendard-Bold, sans-serif;
+  --display-medium-font-size: 72px;
+  --display-medium-line-height: 150%;
+  --display-medium-font-weight: 700;
+  --display-medium-font-style: normal;
+  --display-small-font-family: Pretendard-Bold, sans-serif;
+  --display-small-font-size: 68px;
+  --display-small-line-height: 150%;
+  --display-small-font-weight: 700;
+  --display-small-font-style: normal;
+  --heading-large-font-family: Pretendard-Bold, sans-serif;
+  --heading-large-font-size: 52px;
+  --heading-large-line-height: 150%;
+  --heading-large-font-weight: 700;
+  --heading-large-font-style: normal;
+  --heading-medium-font-family: Pretendard-Bold, sans-serif;
+  --heading-medium-font-size: 40px;
+  --heading-medium-line-height: 150%;
+  --heading-medium-font-weight: 700;
+  --heading-medium-font-style: normal;
+  --heading-small-font-family: Pretendard-SemiBold, sans-serif;
+  --heading-small-font-size: 32px;
+  --heading-small-line-height: 150%;
+  --heading-small-font-weight: 600;
+  --heading-small-font-style: normal;
+  --body-large-font-family: Pretendard-Regular, sans-serif;
+  --body-large-font-size: 28px;
+  --body-large-line-height: 130%;
+  --body-large-font-weight: 400;
+  --body-large-font-style: normal;
+  --body-medium-font-family: Pretendard-Regular, sans-serif;
+  --body-medium-font-size: 24px;
+  --body-medium-line-height: 130%;
+  --body-medium-font-weight: 400;
+  --body-medium-font-style: normal;
+  --body-small-font-family: Pretendard-Regular, sans-serif;
+  --body-small-font-size: 20px;
+  --body-small-line-height: 130%;
+  --body-small-font-weight: 400;
+  --body-small-font-style: normal;
+  --detail-large-regular-font-family: Pretendard-Regular, sans-serif;
+  --detail-large-regular-font-size: 16px;
+  --detail-large-regular-line-height: 130%;
+  --detail-large-regular-font-weight: 400;
+  --detail-large-regular-font-style: normal;
+  --detail-medium-regular-font-family: Pretendard-Regular, sans-serif;
+  --detail-medium-regular-font-size: 14px;
+  --detail-medium-regular-line-height: 130%;
+  --detail-medium-regular-font-weight: 400;
+  --detail-medium-regular-font-style: normal;
+  --detail-small-regular-font-family: Pretendard-Regular, sans-serif;
+  --detail-small-regular-font-size: 12px;
+  --detail-small-regular-line-height: 130%;
+  --detail-small-regular-font-weight: 400;
+  --detail-small-regular-font-style: normal;
+  --detail-large-semibold-font-family: Pretendard-SemiBold, sans-serif;
+  --detail-large-semibold-font-size: 16px;
+  --detail-large-semibold-line-height: 130%;
+  --detail-large-semibold-font-weight: 600;
+  --detail-large-semibold-font-style: normal;
+  --detail-medium-semibold-font-family: Pretendard-SemiBold, sans-serif;
+  --detail-medium-semibold-font-size: 14px;
+  --detail-medium-semibold-line-height: 130%;
+  --detail-medium-semibold-font-weight: 600;
+  --detail-medium-semibold-font-style: normal;
+  --detail-small-semibold-font-family: Pretendard-SemiBold, sans-serif;
+  --detail-small-semibold-font-size: 12px;
+  --detail-small-semibold-line-height: 130%;
+  --detail-small-semibold-font-weight: 600;
+  --detail-small-semibold-font-style: normal;
+
+  /* Effects */
+}

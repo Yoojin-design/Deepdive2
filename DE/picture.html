@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <picture>
+      <source srcset="daniel.jpg" media="(width < 600px)" />
+      <source srcset="healin.webp" media="(width < 1024px)" />
+      <img src="minji.webp" alt="대체텍스트" />
+    </picture>
+    <style>
+      picture {
+        img {
+          width: 400px;
+          object-fit: cover;
+          aspect-ratio: 1/1;
+        }
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.link-type1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 19.531px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -1px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: 25%;
+  text-underline-position: from-font;
+}
+
+.link-type2 {
+}

@@ -1,0 +1,18 @@
+.heading-type1 {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-family: Pretendard;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150px;
+  text-align: center;
+}
+.heading-type2 {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-family: Pretendard;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
