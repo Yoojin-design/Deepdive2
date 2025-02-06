@@ -1,18 +1,42 @@
-.heading-type1 {
+.display-large {
   color: var(--Gray-Gray-50, #1d1d1d);
-  font-family: Pretendard;
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
   line-height: 150px;
-  text-align: center;
 }
-.heading-type2 {
+.display-medium {
   color: var(--Gray-Gray-50, #1d1d1d);
-  font-family: Pretendard;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
-  text-align: center;
+}
+.display-small {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.heading-large {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.heading-medium {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.heading-small {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
 }
