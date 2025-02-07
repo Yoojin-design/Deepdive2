@@ -1,0 +1,63 @@
+.body-large {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px;
+}
+.body-medium {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px;
+}
+.body-small {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px;
+}
+.detail-large-semibold {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130px;
+}
+.detail-medium-semibold {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130px;
+}
+.detail-small-semibold {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130px;
+}
+.detail-large-regular {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px;
+}
+.detail-medium_regular {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px;
+}
+.detail-small_regular {
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px;
+}
