@@ -1,7 +1,7 @@
 .textarea {
-  display: inline-flex;
+  display: block;
   height: 158px;
-  padding: 15px 16px 42px 16px;
+  padding: 10px 16px 42px 16px;
   border-radius: 8px;
   border: 1px solid var(--Gray-20, #d8d8d8);
   background: var(--BG-White_Color, #fff);
@@ -17,9 +17,14 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.2;
     letter-spacing: -0.35px;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+}
+.textarea:focus,
+.textarea:active {
+  border: 1px solid var(--Gray-20, #d8d8d8);
+  outline: none;
 }
