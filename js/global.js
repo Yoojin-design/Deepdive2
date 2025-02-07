@@ -8,3 +8,5 @@ includeHTML("/guide/input.html", "#input");
 includeHTML("/guide/textarea.html", "#textarea");
 includeHTML("/guide/select.html", "#select");
 includeHTML("/guide/switch.html", "#switch");
+includeHTML("/guide/radio.html", "#radio");
+includeHTML("/guide/checkbox.html", "#checkbox");
