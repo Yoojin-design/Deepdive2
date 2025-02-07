@@ -149,3 +149,19 @@ button {
   color: var(--Gray-Gray-20, #d8d8d8);
   cursor: not-allowed;
 }
+
+.btn-texticon {
+  display: flex;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: var(--Gray-Gray-50, #1d1d1d);
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
