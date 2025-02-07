@@ -1,0 +1,28 @@
+.textarea {
+  display: inline-flex;
+  height: 158px;
+  padding: 15px 16px 42px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-20, #d8d8d8);
+  background: var(--BG-White_Color, #fff);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  &:placeholder {
+    width: 308px;
+    height: 100px;
+    overflow: hidden;
+    color: var(--Gray-Gray-30, #9e9e9e);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.35px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  &:inputmode {
+    color: var(--Gray-Gray-40, #555);
+  }
+}
