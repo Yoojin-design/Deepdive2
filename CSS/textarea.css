@@ -22,7 +22,4 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  &:inputmode {
-    color: var(--Gray-Gray-40, #555);
-  }
 }
