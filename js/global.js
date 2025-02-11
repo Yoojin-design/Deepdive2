@@ -10,3 +10,5 @@ includeHTML("/guide/select.html", "#select");
 includeHTML("/guide/switch.html", "#switch");
 includeHTML("/guide/radio.html", "#radio");
 includeHTML("/guide/checkbox.html", "#checkbox");
+includeHTML("/guide/chip.html", "#chip");
+includeHTML("/guide/dialog.html", "#dialog");
