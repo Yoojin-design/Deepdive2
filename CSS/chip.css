@@ -1,15 +1,61 @@
 .chip {
-  --borderOnColor: #000;
-  --borderOffColor: #000;
+  --borderOnColor: var(--Gray-Gray-50, #1d1d1d);
+  --borderOffColor: var(--Gray-Gray-20, #d8d8d8);
   --fontOnColor: #fff;
-  --fontOffColor: #000;
-  --bgOnColor: #000;
+  --fontOffColor: var(--Gray-Gray-50, #1d1d1d);
+  --bgOnColor: var(--Gray-Gray-50, #1d1d1d);
   --bgOffColor: #fff;
-  --px: 10px;
-  --py: 4px;
-  --fontSize: 16px;
-  --rounded: 100px;
-  --gap: 5px;
+  --px: 12px;
+  --py: 6px;
+  --fontSize: 12px;
+  --rounded: 24px;
+  --gap: 2px;
+
+  display: flex;
+  align-items: center;
+
+  gap: var(--gap);
+
+  input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    &:checked {
+      + label {
+        border-color: var(--borderOnColor);
+        background-color: var(--bgOnColor);
+        color: var(--fontOnColor);
+      }
+    }
+  }
+}
+label {
+  padding: var(--py) var(--px);
+  border: 1px solid var(--borderOffColor);
+  background-color: var(--bgOffCol or);
+  border-radius: var(--rounded);
+  font-size: var(--fontSize);
+  color: var(--fontOffColor);
+}
+
+.chip-icon {
+  --borderOnColor: var(--Gray-Gray-50, #1d1d1d);
+  --borderOffColor: var(--Gray-Gray-20, #d8d8d8);
+  --fontOnColor: #fff;
+  --fontOffColor: var(--Gray-Gray-50, #1d1d1d);
+  --bgOnColor: var(--Gray-Gray-50, #1d1d1d);
+  --bgOffColor: #fff;
+  --px: 12px;
+  --py: 6px;
+  --fontSize: 12px;
+  --rounded: 24px;
+  --gap: 2px;
+
+  --iconGap: 2px;
+  --iconSize: 16px;
+  --iconBgOffImg: url(../images/icon_chip_selection_off.svg);
+  --iconBgOnImg: url(../images/icon_chip_selection_on.svg);
 
   display: flex;
   align-items: center;
@@ -29,11 +75,114 @@
     }
   }
   label {
+    display: inline-flex;
+    gap: var(--iconGap);
+    align-items: center;
     padding: var(--py) var(--px);
     border: 1px solid var(--borderOffColor);
     background-color: var(--bgOffColor);
     border-radius: var(--rounded);
     font-size: var(--fontSize);
     color: var(--fontOffColor);
+  }
+  &.left {
+    label {
+      &::before {
+        content: "";
+        width: var(--iconSize);
+        aspect-ratio: 1;
+        background: var(--iconBgOffImg) no-repeat center / contain;
+      }
+    }
+    input:checked + label::before {
+      background: var(--iconBgOnImg) no-repeat center / contain;
+    }
+  }
+  &.right {
+    label {
+      &::after {
+        content: "";
+        width: var(--iconSize);
+        aspect-ratio: 1;
+        background: var(--iconBgOffImg) no-repeat center / contain;
+      }
+    }
+    input:checked + label::after {
+      background: var(--iconBgOnImg) no-repeat center / contain;
+    }
+  }
+}
+
+.chip-icon {
+  --borderOnColor: var(--Gray-Gray-50, #1d1d1d);
+  --borderOffColor: var(--Gray-Gray-20, #d8d8d8);
+  --fontOnColor: #fff;
+  --fontOffColor: var(--Gray-Gray-50, #1d1d1d);
+  --bgOnColor: var(--Gray-Gray-50, #1d1d1d);
+  --bgOffColor: #fff;
+  --px: 12px;
+  --py: 6px;
+  --fontSize: 12px;
+  --rounded: 24px;
+  --gap: 2px;
+
+  --iconGap: 2px;
+  --iconSize: 16px;
+  --iconBgOffImg: url(../images/icon_chip_selection_off.svg);
+  --iconBgOnImg: url(../images/icon_chip_selection_on.svg);
+
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+
+  input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    &:checked {
+      + label {
+        border-color: var(--borderOnColor);
+        background-color: var(--bgOnColor);
+        color: var(--fontOnColor);
+      }
+    }
+  }
+  label {
+    display: inline-flex;
+    gap: var(--iconGap);
+    align-items: center;
+    padding: var(--py) var(--px);
+    border: 1px solid var(--borderOffColor);
+    background-color: var(--bgOffColor);
+    border-radius: var(--rounded);
+    font-size: var(--fontSize);
+    color: var(--fontOffColor);
+  }
+  &.left {
+    label {
+      &::before {
+        content: "";
+        width: var(--iconSize);
+        aspect-ratio: 1;
+        background: var(--iconBgOffImg) no-repeat center / contain;
+      }
+    }
+    input:checked + label::before {
+      background: var(--iconBgOnImg) no-repeat center / contain;
+    }
+  }
+  &.right {
+    label {
+      &::after {
+        content: "";
+        width: var(--iconSize);
+        aspect-ratio: 1;
+        background: var(--iconBgOffImg) no-repeat center / contain;
+      }
+    }
+    input:checked + label::after {
+      background: var(--iconBgOnImg) no-repeat center / contain;
+    }
   }
 }
