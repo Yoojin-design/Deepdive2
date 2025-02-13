@@ -48,3 +48,34 @@
   flex-direction: column;
   gap: 12px;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* 아이템 간 간격 */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  font-size: 14px;
+  color: #666;
+}
