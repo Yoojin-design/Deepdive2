@@ -1,8 +1,189 @@
-.flex {
-  border: 1px solid red;
-  padding: 5px;
-  .item {
-    border: 1px solid blue;
-    padding: 5px;
+<!-- 텍스트에어리어 -- > .text-type1 {
+  display: -webkit-box;
+  width: 300px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  flex-shrink: 0;
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.35px;
+  text-overflow: ellipsis;
+}
+
+.textarea {
+  display: block;
+  height: 158px;
+  padding: 10px 16px 42px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-20, #d8d8d8);
+  background: var(--BG-White_Color, #fff);
+  letter-spacing: -1px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  &:placeholder {
+    width: 308px;
+    height: 100px;
+    overflow: hidden;
+    color: var(--Gray-Gray-30, #9e9e9e);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.35px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.textarea:focus,
+.textarea:active {
+  border: 1px solid var(--Gray-20, #d8d8d8);
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.btn-outlined {
+  display: inline-flex;
+  padding: 12px 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px var(--Gray-Gray-50, #1d1d1d) inset;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--Gray-Gray-50, #1d1d1d);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.btn-outlined:hover,
+.btn-outlined.hover {
+  box-shadow: 0 0 0 1px var(--Gray-Gray-40, #555) inset;
+  background: var(--Gray-Gray-10, #f0f0f0);
+}
+.btn-outlined:active,
+.btn-outlined.active {
+  box-shadow: 0 0 0 1px var(--Gray-Black, #000) inset;
+  background: var(--Gray-Gray-10, #f0f0f0);
+}
+.btn-outlined:disabled {
+  display: inline-flex;
+  padding: 12px 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px var(--Gray-Gray-20, #d8d8d8) inset;
+  background: var(--Gray-Gray-10, #f0f0f0);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--Gray-Gray-20, #d8d8d8);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  cursor: not-allowed;
+}
+
+.flextextarea {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.flexswitch {
+  display: flex;
+  gap: 12px;
+}
+
+:root {
+  --width: 100px;
+  --height: 40px;
+  --padding: 2px;
+  --borderColor: #fff;
+  --offColor: #fff;
+  --offBgColor: #d8d8d8;
+  --onColor: #fff;
+  --onBgColor: #ff455c;
+  --textColor: #000;
+}
+
+<!-- 스위치 -- > .text-type2 {
+  color: var(--Gray-Black, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  display: flex;
+  width: flex;
+  align-items: center;
+  gap: 12px;
+}
+.switch {
+  display: flex;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  + label {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    border-radius: var(--width);
+    width: 48px;
+    height: 30px;
+    padding: var(--padding) calc(var(--padding) * 4);
+    border: 1px solid var(--borderColor);
+    align-items: center;
+    justify-content: end;
+    transition: 0.4s;
+    background-color: var(--offBgColor);
+    box-sizing: border-box;
+    &::before {
+      --left: var(--padding);
+      --cricle: calc(var(--height) - (var(--left) * 3));
+
+      content: "";
+      position: absolute;
+      left: var(--left);
+      top: 50%;
+      translate: 0 -50%;
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      background-color: var(--offColor);
+      transition: 0.4s;
+    }
+    &::after {
+      content: attr(data-off);
+      text-align: center;
+      white-space: nowrap;
+      line-height: 1;
+      transition: 0.4s;
+      color: var(--textColor);
+    }
+  }
+  &:checked {
+    + label {
+      background-color: var(--onBgColor);
+      justify-content: start;
+
+      &::before {
+        left: 100%;
+        translate: calc(-100% - 2px) -50%;
+        background-color: var(--onColor);
+      }
+      &::after {
+        content: attr(data-on);
+      }
+    }
   }
 }

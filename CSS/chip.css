@@ -29,14 +29,14 @@
       }
     }
   }
-}
-label {
-  padding: var(--py) var(--px);
-  border: 1px solid var(--borderOffColor);
-  background-color: var(--bgOffCol or);
-  border-radius: var(--rounded);
-  font-size: var(--fontSize);
-  color: var(--fontOffColor);
+  label {
+    padding: var(--py) var(--px);
+    border: 1px solid var(--borderOffColor);
+    background-color: var(--bgOffCol or);
+    border-radius: var(--rounded);
+    font-size: var(--fontSize);
+    color: var(--fontOffColor);
+  }
 }
 
 .chip-icon {
