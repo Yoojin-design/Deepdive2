@@ -15,6 +15,10 @@
   gap: 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* Figma Styles of your File */
 :root {
   /* 텍스트 */
