@@ -8,10 +8,12 @@
   --checkHeight: 24px;
 }
 .checkbox {
+  overflow: hidden;
   position: absolute;
+  border: 0;
   width: 1px;
   height: 1px;
-  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
   + label {
     display: inline-flex;
     padding-left: var(--checkpl);
