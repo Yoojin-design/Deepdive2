@@ -20,6 +20,20 @@
     color: var(--radiobeforeColor);
     height: var(--radioHeight);
   }
+  input {
+    overflow: hidden;
+    position: absolute;
+    border: 0;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    &:checked {
+      + label {
+        color: var(--radioafterColor)
+        background: var(var(--radioonImage))
+      }
+    }
+  }
   &:checked {
     + label {
       color: var(--radioafterColor);
