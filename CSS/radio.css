@@ -29,8 +29,8 @@
     clip: rect(1px, 1px, 1px, 1px);
     &:checked {
       + label {
-        color: var(--radioafterColor)
-        background: var(var(--radioonImage))
+        color: var(--radioafterColor);
+        background: var(var(--radioonImage));
       }
     }
   }
