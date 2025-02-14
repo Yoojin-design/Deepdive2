@@ -1,0 +1,76 @@
+.grid {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
+  /*grid-template-columns: repeat(반복횟수, 가로크기);*/
+  grid-template-columns: repeat(5, 1fr);
+  /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
+  border: 1px solid blue;
+  padding: 5px;
+  li {
+    border: 1px solid tomato;
+    padding: 5px;
+  }
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.example1 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid seagreen;
+  padding: 5px;
+  div {
+    display: flex;
+    border: 1px solid salmon;
+    padding: 5px;
+    gap: 12px;
+  }
+}
+
+.example2 {
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
+  border: 1px solid seagreen;
+  padding: 5px;
+  div {
+    white-space: nowrap;
+    display: flex;
+    border: 1px solid salmon;
+    padding: 5px;
+    gap: 12px;
+  }
+  .item3 {
+    justify-self: end;
+  }
+}
+
+.example3 {
+  display: flex;
+  border: 1px solid seagreen;
+  padding: 5px;
+  div {
+    border: 1px solid salmon;
+    padding: 5px;
+  }
+  .item1 {
+    width: 50px;
+  }
+  .item2 {
+    flex: 1px;
+  }
+}
+
+.example4 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  border: 1px solid seagreen;
+  padding: 5px;
+  div {
+    border: 1px solid salmon;
+    padding: 5px;
+  }
+}
