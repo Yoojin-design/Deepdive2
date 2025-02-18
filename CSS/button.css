@@ -165,3 +165,18 @@ button {
   font-weight: 400;
   line-height: 130%;
 }
+
+.btn-group-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+  /* margin: auto; */
+}
+
+.btn-group-horizontal {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+}
