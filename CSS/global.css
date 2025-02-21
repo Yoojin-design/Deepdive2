@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url(../DE/reset.css);
+=======
+@import url(./reset.css);
+>>>>>>> b3f215acdc0ce7bcd83639098c84a1c7f6f493dc
 @import url(style.css);
 @import url(./heading.css);
 @import url(./link.css);

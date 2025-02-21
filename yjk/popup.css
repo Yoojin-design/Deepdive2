@@ -1,0 +1,48 @@
+.popup {
+  width: 560px;
+  border: none;
+  border-radius: 12px;
+  padding: 40px;
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+  }
+}
+
+.popup-header {
+  align-items: center;
+}
+
+.popup-body {
+  margin-top: 32px;
+}
+
+.btn-group {
+  margin-top: 32px;
+  gap: 8px;
+}
+
+.align {
+  display: flex;
+  &.right {
+    justify-content: end;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.left {
+    justify-content: start;
+  }
+  &.both {
+    justify-content: space-between;
+  }
+  &.vt {
+    align-items: start;
+  }
+  &.vm {
+    align-items: center;
+  }
+  &.vb {
+    align-items: end;
+  }
+}

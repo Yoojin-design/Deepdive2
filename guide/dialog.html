@@ -1,19 +1,37 @@
+<!-- Alert 다이얼로그 -->
 <button type="button" popovertarget="popup-alert" popovertargetaction="show">alert 열기</button>
 
 <div popover id="popup-alert" data-width="500px" class="dialog dimmed blur lg">
+  <img src="./images/popup-warning-circle.svg" alt="Alert 아이콘" class="popup-icon" />
   <div class="dialog-content">
-    <h2>팝업제목</h2>
-    <div>팝업내용</div>
+    <div>날짜를 선택해 주세요</div>
   </div>
-  <button type="button" class="dialog-button dialog-alert" popovertarget="popup-alert" popovertargetaction="hide">닫기</button>
+  <button type="button" class="dialog-button dialog-alert" popovertarget="popup-alert" popovertargetaction="hide">확인</button>
 </div>
 
+<!-- Confirm 다이얼로그 -->
 <button type="button" popovertarget="popup-confirm" popovertargetaction="show">confirm 열기</button>
 
 <div popover id="popup-confirm" data-width="500px" class="dialog dimmed blur lg">
   <div class="dialog-content">
-    <h2>팝업제목</h2>
-    <div>팝업내용</div>
+    <img src="./images/popup-check-circle.svg" alt="Alert 아이콘" class="popup-icon" />
+    <div>신청이 완료되었습니다</div>
   </div>
-  <button type="button" class="dialog-button dialog-confirm" popovertarget="popup-confirm" popovertargetaction="hide">닫기</button>
+  <button type="button" class="dialog-button dialog-confirm" popovertarget="popup-confirm" popovertargetaction="hide">확인</button>
+</div>
+
+<!-- 버튼 2개 다이얼로그 -->
+<button type="button" popovertarget="twoBtnPopup" popovertargetaction="show">버튼 2개 다이얼로그</button>
+
+<div popover id="twoBtnPopup" class="popup">
+  <div class="popup-header align both vm">
+    <div class="body-medium">솜씨당 앱 알림을 받아보시겠어요?</div>
+  </div>
+  <div class="popup-body">
+    <div class="detail-medium-regular">혜택 알림 수신 동의 및 개인 정보 활용에 동의하시면 맞춤 추천, 나의 관심 상품 할인 안내, 비밀 쿠폰 발급 소식 등 쇼핑에 필요한 다양한 소식을 받으실 수 있습니다.</div>
+  </div>
+  <div class="align right btn-group">
+    <button class="btn-outlined" popovertarget="twoBtnPopup">괜찮아요</button>
+    <button class="btn-primary" popovertarget="twoBtnPopup">알림받기</button>
+  </div>
 </div>
