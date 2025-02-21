@@ -153,3 +153,11 @@
     align-items: end;
   }
 }
+
+.primary-pink-100 {
+  color: var(--primary-pink-100) !important;
+}
+
+.gray-gray-30 {
+  color: var(--gray-gray-30) !important;
+}
