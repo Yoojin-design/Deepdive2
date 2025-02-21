@@ -68,5 +68,5 @@
 }
 
 .orange-100 {
-  color: var(--orange-100) !important;
+  color: var(--orange-100, #ff5c00) !important;
 }
