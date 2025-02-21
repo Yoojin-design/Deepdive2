@@ -1,6 +1,10 @@
 .product-field-group {
   display: grid;
-  gap: 4px;
+  gap: 12px;
+  .text-group {
+    display: grid;
+    gap: 4px;
+  }
   .price {
     display: flex;
     gap: 4px;
@@ -8,4 +12,16 @@
 }
 .primary-orange-100 {
   color: var(--primary-orange-100) !important;
+}
+.product-field-group-02 {
+  display: grid;
+  gap: 12px;
+  .text-group-02 {
+    display: grid;
+    gap: 4px;
+  }
+  .price-02 {
+    display: flex;
+    gap: 4px;
+  }
 }
