@@ -1,9 +1,17 @@
-.product-item {
+.product-item1 {
   display: grid;
+  width: 175px;
   gap: 12px;
 }
 
 .price-group {
   display: flex;
   gap: 4px;
+}
+
+.product-item2 {
+  display: grid;
+  width: 130px;
+  /* padding: 4px; */
+  gap: 12px;
 }
