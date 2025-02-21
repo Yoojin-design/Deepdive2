@@ -154,3 +154,9 @@
     align-items: end;
   }
 }
+
+details[name="component"] {
+  > summary {
+    font-size: 20px;
+  }
+}
