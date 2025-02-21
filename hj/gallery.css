@@ -2,3 +2,6 @@
   display: grid;
   gap: 8px;
 }
+.primary-orange-100 {
+  color: var(--primary-orange-100) !important;
+}

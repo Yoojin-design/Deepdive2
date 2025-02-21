@@ -36,7 +36,11 @@
   line-height: 130%;
 }
 .detail-small-semibold {
+<<<<<<< HEAD
   color: var(--gray-gray-50);
+=======
+  color: var(--gray-gray-50-);
+>>>>>>> 4037845 (a)
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
