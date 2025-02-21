@@ -1,0 +1,31 @@
+.btn-group-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+  /* margin: auto; */
+}
+
+.btn-primary {
+  display: flex;
+  padding: 18px 20px;
+  border-radius: 12px;
+  background: --gray-gray 50;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.btn-outlined {
+  display: flex;
+  padding: 18px 20px;
+  border-radius: 12px;
+  border: 1px solid #e8e8e8;
+  background: --gray-white;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
