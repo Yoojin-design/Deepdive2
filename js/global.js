@@ -12,3 +12,4 @@ includeHTML("/guide/radio.html", "#radio");
 includeHTML("/guide/checkbox.html", "#checkbox");
 includeHTML("/guide/chip.html", "#chip");
 includeHTML("/guide/dialog.html", "#dialog");
+includeHTML("/guide/inputarea.html", "#inputarea");
