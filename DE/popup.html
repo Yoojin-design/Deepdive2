@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>popup</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="popup-content">
+    <button type="button" popovertarget="popup-alert" popovertargetaction="show">팝업 열기</button>
+
+    <div popover id="popup-alert" data-width="500px" class="popup dimmed blur lg">
+      <div class="popup-content">
+        <div class="check" herf>신청이 완료되었습니다</div>
+        <div>신청이 완료되었습니다</div>
+      </div>
+      <button type="button" class="popup-button popup-alert" popovertarget="popup-alert" popovertargetaction="hide">확인</button>
+    </div>
+  </body>
+</html>
