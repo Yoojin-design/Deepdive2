@@ -1,0 +1,4 @@
+.product-field-group {
+  display: grid;
+  gap: 8px;
+}
