@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>팝업</title>
+    <link rel="stylesheet" href="../CSS/global.css" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <button class="btn-outlined" popovertarget="popup">팝업열기</button>
+    <div popover id="popup" class="popup">
+      <div class="popup-header align both vm">
+        <div class="body-medium">팝업 타이틀</div>
+        <button class="btn-close" aria-label="닫기" popovertarget="popup"></button>
+      </div>
+
+      <div class="popup-body">
+        <div class="body-small">내용 타이틀</div>
+        <div class="body-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odit perferendis delectus eveniet porro fugit voluptatem. Quibusdam veritatis sequi rem velit expedita repellat illo, explicabo numquam asperiores ab deserunt nisi!</div>
+      </div>
+
+      <div class="align right btn-group">
+        <button class="btn-outlined">취소</button>
+        <button class="btn-primary">확인</button>
+      </div>
+    </div>
+  </body>
+</html>

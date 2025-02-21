@@ -1,0 +1,64 @@
+.tab-type1 {
+  display: flex;
+  button {
+    width: 100px;
+    height: 5.6rem;
+    padding: 0rem 0.8rem;
+    border-bottom: 2px solid var(--gray-gray-30, #d8d8d8);
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    flex: 1 0 0;
+    color: var (--gray-gray-70, #555);
+    font-family: "pretendard GOV";
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    leading-trim: both;
+  }
+  .active {
+  }
+  &.full {
+    li {
+      flex: 1;
+    }
+  }
+  &.scroll {
+    overflow: auto;
+    &:hover {
+      &::-webkit-scrollbar {
+        width: 5px;
+        background-color: lightcyan;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: coral;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+.tab-type2 {
+  display: flex;
+  gap: 6px;
+  overflow: auto;
+  button {
+    padding: 8px 12px;
+    border-radius: 12px;
+    align-items: center;
+    gap: 8px;
+    color: #a09cab;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+  .active {
+    background: #222;
+    color: #fff;
+    font-weight: 600;
+  }
+}
