@@ -1,0 +1,43 @@
+.xchip {
+  width: 375px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 8px;
+  --borderOnColor: var(--gray-gray-50);
+  --borderOffColor: var(--gray-gray-20);
+  --fontOnColor: var(--gray-white);
+  --fontOffColor: var(--gray-gray-50);
+  --bgOnColor: var(--gray-gray-50);
+  --bgOffColor: var(--gray-white);
+  --px: 18px;
+  --py: 10px;
+  --rounded: 27px;
+
+  display: flex;
+  align-items: center;
+
+  input {
+    overflow: hidden;
+    position: absolute;
+    border: 0;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    &:checked {
+      + label {
+        border-color: var(--borderOnColor);
+        background-color: var(--bgOnColor);
+        color: var(--fontOnColor);
+      }
+    }
+  }
+  label {
+    display: inline-flex;
+    padding: var(--py) var(--px);
+    border: 1px solid var(--borderOffColor);
+    background-color: var(--bgOffCol or);
+    border-radius: var(--rounded);
+    font-size: var(--fontSize);
+    color: var(--fontOffColor);
+  }
+}
