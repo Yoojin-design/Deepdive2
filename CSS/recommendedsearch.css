@@ -1,0 +1,42 @@
+.Recommended-search {
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
+  padding: 5px;
+  gap: 12px;
+  --borderColor: var(--Primary-Pink-100, #ff455c);
+  --fontColor: var(--Primary-Pink-100, #ff455c);
+  --bgColor: var(--Pink-10, #ffdade);
+  --fontSize: 12px;
+  --rounded: 24px;
+  --px: 12px;
+  --py: 6px;
+
+  .item1 {
+    grid-column: 1 / -1;
+    font-style: var(--detail-large-regular);
+  }
+
+  .item2 {
+    border: 1px solid var(--borderColor);
+    background-color: var(--bgColor);
+    color: var(--fontColor);
+    padding: var(--py) var(--px);
+    border-radius: var(--rounded);
+    font-size: var(--fontSize);
+  }
+  .item3 {
+    border: 1px solid var(--borderColor);
+    background-color: var(--bgColor);
+    color: var(--fontColor);
+    padding: var(--py) var(--px);
+    border-radius: var(--rounded);
+    font-size: var(--fontSize);
+  }
+
+  div {
+    white-space: nowrap;
+    display: flex;
+    padding: 5px;
+    gap: 12px;
+  }
+}
