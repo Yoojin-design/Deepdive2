@@ -2,3 +2,54 @@
   display: grid;
   gap: 8px;
 }
+.menubar {
+  display: flex;
+  gap: 22px;
+}
+
+.btn-01 {
+  display: grid;
+  gap: 10px;
+}
+.btn-02 {
+  display: grid;
+  gap: 10px;
+}
+.btn-03 {
+  display: grid;
+  gap: 10px;
+}
+.btn-04 {
+  display: grid;
+  gap: 10px;
+}
+.btn-05 {
+  display: grid;
+  gap: 10px;
+}
+
+.navigation_group {
+  display: flex;
+  gap: 25px;
+}
+
+.navigation_01 {
+  display: grid;
+  gap: 7px;
+}
+.navigation_02 {
+  display: grid;
+  gap: 7px;
+}
+.navigation_03 {
+  display: grid;
+  gap: 7px;
+}
+.navigation_04 {
+  display: grid;
+  gap: 7px;
+}
+.navigation_05 {
+  display: grid;
+  gap: 7px;
+}

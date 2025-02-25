@@ -14,7 +14,12 @@ includeHTML("/guide/chip.html", "#chip");
 includeHTML("/guide/dialog.html", "#dialog");
 includeHTML("/guide/gallery.html", "#gallery");
 includeHTML("/guide/inputarea.html", "#inputarea");
+<<<<<<< HEAD
 includeHTML("/guide/recommended.html", "#recommended");
 includeHTML("/guide/recentsearch.html", "#recentsearch");
 includeHTML("/guide/xchip.html", "#xchip");
 includeHTML("/guide/popularsearch.html", "#popularsearch");
+=======
+includeHTML("/guide/menubar.html", "#menubar");
+includeHTML("/guide/navigation.html", "#navigation");
+>>>>>>> 48ebb98 (a)
