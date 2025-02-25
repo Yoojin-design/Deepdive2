@@ -1,0 +1,15 @@
+.popularsearch {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 375px;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  .psearch-record1 {
+    display: flex;
+    gap: 12px;
+    .number {
+      color: var(--primary-pink-100);
+    }
+  }
+}

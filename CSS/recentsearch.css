@@ -5,6 +5,9 @@
   padding: 8px 16px;
   align-items: flex-start;
   gap: 8px;
+  .button-x {
+    background: var(--White, #fff);
+  }
   .title {
     grid-column: 1 / -1;
   }
@@ -31,6 +34,7 @@
     }
     .icon2 {
       justify-self: end;
+      background: var(--White, #fff);
     }
   }
 }

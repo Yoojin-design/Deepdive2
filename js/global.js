@@ -16,3 +16,5 @@ includeHTML("/guide/gallery.html", "#gallery");
 includeHTML("/guide/inputarea.html", "#inputarea");
 includeHTML("/guide/recommended.html", "#recommended");
 includeHTML("/guide/recentsearch.html", "#recentsearch");
+includeHTML("/guide/xchip.html", "#xchip");
+includeHTML("/guide/popularsearch.html", "#popularsearch");
