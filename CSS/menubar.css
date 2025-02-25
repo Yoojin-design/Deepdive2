@@ -6,6 +6,7 @@
 .btn_01 {
   display: grid;
   gap: 10px;
+  text-align: center;
 }
 .btn_02 {
   display: grid;
