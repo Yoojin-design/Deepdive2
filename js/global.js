@@ -14,3 +14,5 @@ includeHTML("/guide/chip.html", "#chip");
 includeHTML("/guide/dialog.html", "#dialog");
 includeHTML("/guide/gallery.html", "#gallery");
 includeHTML("/guide/inputarea.html", "#inputarea");
+includeHTML("/guide/recommended.html", "#recommended");
+includeHTML("/guide/recentsearch.html", "#recentsearch");
