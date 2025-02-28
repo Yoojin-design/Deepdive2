@@ -155,3 +155,6 @@
     align-items: end;
   }
 }
+.gray-gray-30 {
+  color: var(--gray-gray-30) !important;
+}

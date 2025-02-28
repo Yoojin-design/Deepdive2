@@ -1,6 +1,10 @@
 .navigation_group {
   display: flex;
   gap: 25px;
+  text-align: center;
+  img {
+    justify-self: center;
+  }
 }
 
 .navigation_01 {

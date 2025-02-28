@@ -1,6 +1,10 @@
 .menubar_01 {
   display: flex;
   gap: 22px;
+  text-align: center;
+  img {
+    justify-self: center;
+  }
 }
 
 .btn_01 {
