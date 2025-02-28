@@ -5,7 +5,11 @@
   align-items: center;
   overflow: hidden;
   padding: 20px 16px;
-  .item2 {
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0 .item2 {
     width: 100%;
     justify-self: center;
     text-align: center;
