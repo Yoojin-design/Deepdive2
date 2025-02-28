@@ -138,6 +138,9 @@
 .mt45 {
   margin-top: 45px;
 }
+.mt25 {
+  margin-top: 25px;
+}
 .align {
   display: flex;
   &.right {
