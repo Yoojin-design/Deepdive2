@@ -131,6 +131,10 @@
 
   /* Effects */
 }
+
+.mt100 {
+  margin-top: 100px;
+}
 .align {
   display: flex;
   &.right {

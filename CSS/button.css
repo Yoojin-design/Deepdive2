@@ -82,7 +82,7 @@ button {
 }
 
 .btn-outlined {
-  display: inline-flex;
+  display: flex;
   padding: 12px 24px;
   border-radius: 12px;
   box-shadow: 0 0 0 1px var(--Gray-Gray-50, #1d1d1d) inset;
@@ -171,12 +171,10 @@ button {
   flex-direction: column;
   gap: 10px;
   width: 100%;
-  max-width: 300px;
-  /* margin: auto; */
 }
 
 .btn-group-horizontal {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 8px;
-  justify-content: flex-start;
 }
