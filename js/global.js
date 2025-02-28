@@ -20,3 +20,5 @@ includeHTML("/guide/xchip.html", "#xchip");
 includeHTML("/guide/popularsearch.html", "#popularsearch");
 includeHTML("/guide/menubar.html", "#menubar");
 includeHTML("/guide/navigation.html", "#navigation");
+includeHTML("/guide/recommendedsearch.html", "#recommendedsearch");
+includeHTML("/guide/header.html", "#header");

@@ -1,0 +1,17 @@
+.header1 {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 5px;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px 16px;
+  .item2 {
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .item3 {
+    justify-self: end;
+  }
+}

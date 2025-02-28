@@ -35,7 +35,7 @@
     display: inline-flex;
     padding: var(--py) var(--px);
     border: 1px solid var(--borderOffColor);
-    background-color: var(--bgOffCol or);
+    background-color: var(--bgOffColor);
     border-radius: var(--rounded);
     font-size: var(--fontSize);
     color: var(--fontOffColor);
