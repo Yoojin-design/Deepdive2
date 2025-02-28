@@ -9,6 +9,9 @@
     display: flex;
     gap: 4px;
   }
+  img {
+    width: 100%;
+  }
 }
 .primary-orange-100 {
   color: var(--primary-orange-100) !important;
@@ -24,4 +27,18 @@
     display: flex;
     gap: 4px;
   }
+  img {
+    width: 100%;
+  }
+}
+
+.product-scroll {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+.product-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
 }
