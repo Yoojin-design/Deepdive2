@@ -1,5 +1,7 @@
 .stepper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
   padding: 16px;
   align-items: flex-start;
   gap: 12px;

@@ -1,5 +1,5 @@
 .xchip {
-  width: 375px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 12px 8px;
