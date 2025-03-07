@@ -36,9 +36,11 @@
   display: flex;
   gap: 10px;
   overflow: auto;
+  padding-inline: 16px;
 }
 .product-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
+  padding-inline: 16px;
 }
