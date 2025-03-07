@@ -23,3 +23,4 @@ includeHTML("/guide/navigation.html", "#navigation");
 includeHTML("/guide/recommendedsearch.html", "#recommendedsearch");
 includeHTML("/guide/header.html", "#header");
 includeHTML("/guide/stepper.html", "#stepper");
+includeHTML("/guide/splash.html", "#splash");

@@ -141,6 +141,9 @@
 .mt25 {
   margin-top: 25px;
 }
+.mt-16 {
+  margin-inline: 20px;
+}
 .align {
   display: flex;
   &.right {
