@@ -1,0 +1,25 @@
+.faq-list {
+  details {
+    border-radius: 10px;
+  }
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    list-style: none;
+    background-color: silver;
+    svg {
+      width: 20px;
+    }
+  }
+  [open] {
+    background-color: pink;
+    summary {
+      background-color: pink;
+      svg {
+        rotate: x 180deg;
+      }
+    }
+  }
+}

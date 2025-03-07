@@ -3,6 +3,8 @@
   gap: 22px;
   text-align: center;
   overflow: auto;
+  padding-inline: 16px;
+  white-space: nowrap;
   img {
     justify-self: center;
   }
