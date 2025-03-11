@@ -141,8 +141,22 @@
 .mt25 {
   margin-top: 25px;
 }
-.mt-16 {
-  margin-inline: 20px;
+.mt20 {
+  margin-top: 20px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+.mr15 {
+  margin-right: 15px;
+}
+.mi15 {
+  max-width: 95%; /* ✅ 최대 너비를 제한하여 여백이 반영되도록 함 */
+  margin-inline: 15px;
 }
 .align {
   display: flex;
@@ -170,4 +184,10 @@
 }
 .gray-gray-30 {
   color: var(--gray-gray-30) !important;
+}
+
+.center-container {
+  position: absolute;
+  top: 50%;
+  left: center;
 }

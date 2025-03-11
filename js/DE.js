@@ -69,3 +69,46 @@ const activeNext = () => {
 };
 
 activeNext();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".btn-outlined");
+  const nextButton = document.querySelector(".btn-text"); // '다음' 버튼
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", function () {
+      this.classList.toggle("selected"); // ✅ 선택/해제 토글
+
+      // ✅ 선택된 버튼 개수 확인
+      const selectedButtons = document.querySelectorAll(".btn-outlined.selected").length;
+
+      // ✅ 하나라도 선택되면 '다음' 버튼 활성화
+      if (selectedButtons > 0) {
+        nextButton.classList.add("btn-primary");
+        nextButton.classList.remove("btn-text");
+      } else {
+        nextButton.classList.add("btn-text");
+        nextButton.classList.remove("btn-primary");
+      }
+    });
+  });
+});
+
+const activeNext2 = () => {
+  const buttons = document.querySelectorAll(".btn-group-vertical button");
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const nextBtn = document.querySelector(".btn-text, .btn-primary");
+
+      if (nextBtn.classList.contains("btn-text")) {
+        nextBtn.classList.add("btn-primary");
+        nextBtn.classList.remove("btn-text");
+      } else {
+        nextBtn.classList.add("btn-text");
+        nextBtn.classList.remove("btn-primary");
+      }
+    });
+  });
+};
+
+activeNext2();
