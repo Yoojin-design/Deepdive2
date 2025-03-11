@@ -5,6 +5,10 @@
   line-height: 150%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .button {
   display: inline-flex;
   padding: 12px 24px;
@@ -189,5 +193,7 @@
 .center-container {
   position: absolute;
   top: 50%;
-  left: center;
+  left: 50%;
+  translate: -50% -50%;
+  text-align: center;
 }

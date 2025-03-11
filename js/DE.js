@@ -112,3 +112,10 @@ const activeNext2 = () => {
 };
 
 activeNext2();
+
+gsap.to(".loading-icon", {
+  rotation: 360,
+  duration: 2,
+  repeat: -1,
+  ease: "linear",
+});
