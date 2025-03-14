@@ -1,3 +1,31 @@
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: var(--gray-900);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.item2 {
+  margin: 0;
+  text-align: center;
+}
+.category-nav {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.filter-container {
+  display: flex;
+  padding: 16px;
+  gap: 8px;
+}
+.btn-text {
+  overflow-x: auto;
+  white-space: nowrap;
+}
 .recommended {
   display: flex;
   width: 100%;

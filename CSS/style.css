@@ -159,8 +159,10 @@ body {
   margin-right: 15px;
 }
 .mi15 {
-  max-width: 95%; /* ✅ 최대 너비를 제한하여 여백이 반영되도록 함 */
   margin-inline: 15px;
+}
+.mi16 {
+  margin-inline: 16px;
 }
 .align {
   display: flex;
