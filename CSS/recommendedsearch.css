@@ -24,14 +24,6 @@
     border-radius: var(--rounded);
     font-size: var(--fontSize);
   }
-  .item3 {
-    border: 1px solid var(--borderColor);
-    background-color: var(--bgColor);
-    color: var(--fontColor);
-    padding: var(--py) var(--px);
-    border-radius: var(--rounded);
-    font-size: var(--fontSize);
-  }
 
   div {
     white-space: nowrap;
