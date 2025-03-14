@@ -119,3 +119,82 @@ gsap.to(".loading-icon", {
   repeat: -1,
   ease: "linear",
 });
+
+/* -------------------------------------------------------------------------- */
+/*                              트윈 Scroll Trigger                            */
+/* -------------------------------------------------------------------------- */
+
+// gsap.to(".box", {
+//     x:400,
+//     duration: 2,
+//     rotation:360
+//     scrollTrigger:
+//     {trigger:'.section2', //애니메이션 실행 기준 선택지}
+//         markers:true,
+//         start:"top center",
+// },});
+
+gsap.fromTo(
+  ".ani .number",
+  { y: "-20px", opacity: 0 },
+  {
+    y: "0px",
+    opacity: 1,
+    duration: 1,
+    ease: "power2.out",
+    stagger: 0.2,
+    scrollTrigger: {
+      trigger: ".ani",
+      start: "top center",
+    },
+  }
+);
+
+gsap.fromTo(
+  ".item2",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 2.5,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".item1",
+      start: "top top",
+    },
+  }
+);
+
+gsap.fromTo(
+  ".txt1",
+  { y: "-20px", opacity: 0 },
+  {
+    y: "0px",
+    opacity: 1,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".item1",
+      start: "top top",
+    },
+  }
+);
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".product-columns",
+      start: "top center",
+    },
+  })
+  .fromTo(
+    ".product-scroll li",
+    {
+      opacity: 0,
+    },
+    {
+      opacity: 1,
+      stagger: 0.2,
+    }
+  );

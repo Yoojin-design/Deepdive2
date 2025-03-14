@@ -3,6 +3,7 @@
   grid-template-columns: min-content min-content 1fr;
   padding: 5px;
   gap: 12px;
+  margin-left: 5px;
   --borderColor: var(--Primary-Pink-100, #ff455c);
   --fontColor: var(--Primary-Pink-100, #ff455c);
   --bgColor: var(--Pink-10, #ffdade);
@@ -24,6 +25,14 @@
     border-radius: var(--rounded);
     font-size: var(--fontSize);
   }
+  /* .item3 {
+    border: 1px solid var(--borderColor);
+    background-color: var(--bgColor);
+    color: var(--fontColor);
+    padding: var(--py) var(--px);
+    border-radius: var(--rounded);
+    font-size: var(--fontSize);
+  } */
 
   div {
     white-space: nowrap;
